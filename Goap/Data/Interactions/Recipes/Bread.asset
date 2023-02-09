@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f116dbb8f6aa7dc448b0a6ed09a7904c, type: 3}
+  m_Name: Bread
+  m_EditorClassIdentifier: 
+  recipeName: Bread
+  recipeCost: 2
+  requiresStation: 1
+  stationType: 2
+  tools: []
+  isStorage: 0
+  storage:
+    inventory: {fileID: 0}
+    itemData: {fileID: 0}
+    quantity: 0
+    motivationStatName: 0
+  isRecipe: 1
+  recipe:
+  - itemData: {fileID: 11400000, guid: 6b162e60be0d0da4a81e0d618a8416cd, type: 2}
+  returnItems:
+  - returnItem: {fileID: 11400000, guid: 463b7ffef64a05b4b8294ae255d00f3a, type: 2}
+    quantity: 1
+  product: {fileID: 11400000, guid: 463b7ffef64a05b4b8294ae255d00f3a, type: 2}

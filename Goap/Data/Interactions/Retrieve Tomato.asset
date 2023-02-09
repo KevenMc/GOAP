@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f116dbb8f6aa7dc448b0a6ed09a7904c, type: 3}
+  m_Name: Retrieve Tomato
+  m_EditorClassIdentifier: 
+  interactionType: 3
+  recipeName: Store Tomatoes
+  interactionCost: 0
+  requiresStation: 1
+  stationType: 1
+  tools: []
+  isStorage: 0
+  storage:
+    inventory: {fileID: 11400000, guid: c83f8c54613117d46a7e7c97052a9d51, type: 2}
+    itemData: {fileID: 11400000, guid: d2e62998a9936b04b9573f2234ce9571, type: 2}
+    quantity: 1
+    motivationStatName: 5
+  isRecipe: 0
+  recipe: []
+  returnItems: []
+  product: {fileID: 11400000, guid: 0cea1ba60dd2b4d46a2285043a2ea0d4, type: 2}

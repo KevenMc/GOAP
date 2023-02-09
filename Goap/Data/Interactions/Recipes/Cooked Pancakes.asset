@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f116dbb8f6aa7dc448b0a6ed09a7904c, type: 3}
+  m_Name: Cooked Pancakes
+  m_EditorClassIdentifier: 
+  interactionType: 1
+  recipeName: Cooked Pancakes
+  interactionCost: 10
+  requiresStation: 1
+  stationType: 2
+  tools: []
+  isStorage: 0
+  storage:
+    inventory: {fileID: 0}
+    itemData: {fileID: 0}
+    quantity: 0
+    motivationStatName: 0
+  isRecipe: 1
+  recipe:
+  - itemData: {fileID: 11400000, guid: e0a751bbbfcd3804382c045d0a6c5885, type: 2}
+  - itemData: {fileID: 11400000, guid: 622738d583c70b944ac200a20024bd14, type: 2}
+  returnItems:
+  - returnItem: {fileID: 11400000, guid: d2e62998a9936b04b9573f2234ce9571, type: 2}
+    quantity: 1
+  product: {fileID: 11400000, guid: d2e62998a9936b04b9573f2234ce9571, type: 2}

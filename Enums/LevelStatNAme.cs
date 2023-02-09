@@ -1,0 +1,11 @@
+public enum LevelStatNAme 
+{
+	NULL = 0,
+	CONSTITUTION = 1,
+	ENDURANCE = 2,
+	STRENGTH = 3,
+	DEXTERITY = 4,
+	AGILITY = 5,
+	INTELLIGENCE = 6,
+
+}

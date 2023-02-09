@@ -1,0 +1,13 @@
+public enum StationType 
+{
+	NULL = 0,
+	KITCHEN_BENCH = 1,
+	STOVE = 2,
+	WATER_WELL = 3,
+	BANANA_TREE = 4,
+	OIL_PRESS = 5,
+	SUNFLOWER_PATCH = 6,
+	FLOUR_MILL = 7,
+	WHEAT_FIELD = 8,
+	TOMATO_PLANT = 9
+}
